@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Main from './components/main/Main';
+import logo from "./logo.svg";
+import "./App.css";
+import Main from "./components/Main";
+import { AppWrapper } from "./contexts/useApp";
 
 function App() {
   return (
     <div className="App">
-      <Main />
+      <AppWrapper>
+        <Main />
+      </AppWrapper>
     </div>
   );
 }
