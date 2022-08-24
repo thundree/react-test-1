@@ -27,15 +27,6 @@ export default function Main(){
                 <h3>June 2022</h3>
             </div>
             <ul className='dates'>
-                {/* <li className="grid-item">1</li>
-                <li className="grid-item">2</li>
-                <li className="grid-item">3</li>
-                <li className="grid-item">4</li>
-                <li className="grid-item">5</li>
-                <li className="grid-item">6</li>
-                <li className="grid-item">7</li>
-                <li className="grid-item">8</li>
-                <li className="grid-item">9</li> */}
                 {Array(30).fill(true).map((item, index) => {
                     return (
                         <div className='grid-item' key={index+1}>{index+1}</div>
